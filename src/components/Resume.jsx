@@ -282,7 +282,7 @@ const Resume = () => {
         Professional Experience
       </h5>
       {/* Mark W. Keels P.E. Construction LLC */}
-      <div className="py-6">
+     {/* <div className="py-6">
         <p className="italic">
           <span className="font-bold">Web Developer (Contractor)</span>
           <span className="px-2">|</span>Jacksonville, FL
@@ -311,7 +311,7 @@ const Resume = () => {
             Hosted the platform on AWS for consistent uptime and reliability.
           </li>
         </ul>
-      </div>
+      </div> */}
       {/* InsightCommerce AI */}
       <div className="py-6">
         <p className="italic">
@@ -351,7 +351,7 @@ const Resume = () => {
         Academic Projects
       </h5>
       {/* Virtual Reality Platform for Knee Surgery Rehab Patients */}
-      <div className="py-6">
+      {/* <div className="py-6">
         <p className="italic">
           <span className="font-bold">Software Engineer (Unity Developer)</span>
           <span className="px-2">|</span>Gainesville, FL
@@ -379,7 +379,125 @@ const Resume = () => {
             project improvement.
           </li>
         </ul>
-      </div>
+      </div> */}
+      {/* Nature Nexus (Full Stack App for DBMS Project) */}
+<div className="py-6">
+  <p className="italic">
+    <span className="font-bold">Full Stack Developer</span>
+    <span className="px-2">|</span>CS Dept, UF
+  </p>
+  <p className="py-1 italic">November 2023 - April 2024</p>
+  <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+    <li>
+      Led the development of Nature Nexus, a full-stack application aimed at
+      Austria's bird population and conservation efforts, using JavaScript,
+      ReactJs, Tailwind CSS, NodeJs, ExpressJs, Oracle DB, and SQL.
+    </li>
+    <li>
+      Built the backend with Node.js and Express.js that seamlessly interfaced
+      with the Oracle Database on UF CISE server to manage a dataset of over
+      500,000 bird observations from Austria.
+    </li>
+    <li>
+      Designed 5 complex SQL trend queries to extract subtle insights about
+      spatial and temporal patterns within bird populations.
+    </li>
+    <li>
+      Utilized Recharts and React Google Charts to visually represent results
+      from executing complex SQL queries, improving user understanding of
+      nuanced insights into bird population spatial and temporal patterns.
+    </li>
+  </ul>
+</div>
+
+      {/* Virtual Reality Platform for Post-Op Knee Surgery Patients */}
+<div className="py-6">
+  <p className="italic">
+    <span className="font-bold">Software Engineer (Unity Developer)</span>
+    <span className="px-2">|</span>CS Dept, UF
+  </p>
+  <p className="py-1 italic">September 2023 - May 2024</p>
+  <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+    <li>
+      Collaborated on a VR application for post-operative knee surgery rehab patients using Unity and C#, focusing on building immersive experiences using Meta Oculus Quest 2 and patient-specific rehabilitation exercises.
+    </li>
+    <li>
+      Integrated Meta Oculus Quest 2 and Microsoft Surface Dials for precise knee movement tracking, improving exercise accuracy by 30% in the rehabilitation process for patients immersed in the VR world.
+    </li>
+    <li>
+      Implemented real-time feedback & progress tracking systems, improving patient safety and exercise efficiency by 20%.
+    </li>
+    <li>
+      Developed a backend API using C# to transmit data packets from VR to the user dashboard for further analysis, utilizing libraries such as SignalR for real-time communication and Newtonsoft.Json for data handling.
+    </li>
+  </ul>
+</div>
+
+
+{/* GAN-Enhanced Credit Card Fraud Detection Classifier */}
+<div className="py-6">
+  <p className="italic">
+    <span className="font-bold">Machine Learning Developer</span>
+    <span className="px-2">|</span>CS Dept, UF
+  </p>
+  <p className="py-1 italic">January 2023 - November 2023</p>
+  <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+    <li>
+      Developed a two-stage machine learning model (GAN & SVM) to address the
+      challenge of underrepresented fraudulent transactions in financial
+      datasets.
+    </li>
+    <li>
+      Employed Pandas and NumPy for initial data preprocessing and used
+      Matplotlib to visualize model performance metrics during training.
+    </li>
+    <li>
+      Implemented a Generative Adversarial Network (GAN) to diversify synthetic
+      fraudulent transaction data, enhancing training set diversity. Trained a
+      Support Vector Machine (SVM) classifier on the augmented dataset,
+      resulting in a 58% accuracy increase and a 43% F1-score improvement.
+    </li>
+    <li>
+      Integrated the model into a backend API service using FastAPI, providing
+      a real-time fraud detection service that reduced false positives by 32% in
+      simulated environments.
+    </li>
+  </ul>
+</div>
+
+{/* PLC Custom Language Compiler */}
+<div className="py-6">
+  <p className="italic">
+    <span className="font-bold">Compiler Developer</span>
+    <span className="px-2">|</span>CS Dept, UF
+  </p>
+  <p className="py-1 italic">August 2023 - December 2023</p>
+  <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+    <li>
+      Developed a full compiler suite for a custom programming language across
+      six interconnected semester-long assignments.
+    </li>
+    <li>
+      Initiated with a Lexer, using ILexer and IToken interfaces to accurately
+      identify and classify syntactical tokens.
+    </li>
+    <li>
+      Implemented a recursive descent Parser that constructed an Abstract Syntax
+      Tree (AST) from parsed phrases, adhering to the grammar's LL(1) properties.
+    </li>
+    <li>
+      Integrated a Symbol Table and Type Checker into the compiler, using
+      ASTVisitor patterns to annotate the AST with type information, ensuring
+      semantic accuracy.
+    </li>
+    <li>
+      Finalized the suite by generating executable Java code from the AST using
+      a CodeGenVisitor, translating language concepts into Java implementations
+      with a 99% pass rate on JUnit tests.
+    </li>
+  </ul>
+</div>
+
       {/* CASMM - Engaging Learning Lab */}
       <div className="py-6">
         <p className="italic">
