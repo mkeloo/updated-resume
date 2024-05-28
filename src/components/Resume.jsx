@@ -319,12 +319,11 @@ const Resume = () => {
           <span className="px-2">|</span>Remote
         </p>
         <p className="py-1 italic">
-          InsightCommerce AI (May 2021 – September 2021)
+          Insight (May 2021 – September 2021)
         </p>
         <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
           <li>
-            Assisted in the development of "QuickCart," a feature designed to
-            enhance the shopping experience for B2B and B2C clients.
+            Assisted in developing the "InsightPro" feature designed to enhance decision-making and strategic planning for consulting clients through advanced analytics solutions.
           </li>
           <li>
             Refined backend operations using Java Spring Boot, improving
@@ -380,13 +379,85 @@ const Resume = () => {
           </li>
         </ul>
       </div> */}
+
+      {/* Automated Detection and Classification of Plant Diseases */}
+<div className="py-6">
+  <p className="italic">
+    <span className="font-bold">Tech: Python, OpenCV, TensorFlow, Keras, Flask, Raspberry Pi</span>
+    <span className="px-2">|</span>UF CS Dept.
+  </p>
+  <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+    <li>
+      Developed an automated system to detect and classify plant diseases using computer vision and deep learning in order to assist farmers in early disease identification and treatment.
+    </li>
+    <li>
+      Utilized TensorFlow and Keras to build and train CNN on a diverse dataset of plant images, achieving an 84% accuracy rate in disease detection and classification, with enhanced image preprocessing methods using OpenCV.
+    </li>
+    <li>
+      Created a Flask-based application to provide an interface for users to upload plant images and receive disease diagnostics and treatment recommendations.
+    </li>
+    <li>
+      Deployed the trained model on a Raspberry Pi and conducted field testing with local farmers in Gainesville to collect feedback, refining and optimizing the system for practical use.
+    </li>
+  </ul>
+</div>
+
+{/* Interactive Plant Care System */}
+<div className="py-6">
+  <p className="italic">
+    <span className="font-bold">Tech: C/C++, ARM Cortex-M, I2C, Wi-Fi, MQTT, AWS IoT Core, AWS Lambda, AWS DynamoDB, React.js.</span>
+    <span className="px-2">|</span>UF CS Dept.
+  </p>
+  <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+    <li>
+      Developed firmware in C/C++ for ARM Cortex-M microcontrollers to automate plant watering and monitor soil moisture, temperature, and light levels.
+    </li>
+    <li>
+      Implemented I2C protocol for interfacing with environmental sensors and Wi-Fi for wireless network connectivity.
+    </li>
+    <li>
+      Integrated AWS Lambda for processing and AWS DynamoDB for storage, using MQTT and AWS IoT Core for data transfer.
+    </li>
+    <li>
+      Designed gamification features and feedback mechanisms to enhance user engagement, achieving 95% data transmission reliability.
+    </li>
+    <li>
+      Created REST API with AWS API Gateway and AWS Lambda and developed the frontend with React.js and Tailwind CSS for real-time monitoring and control, ensuring optimal soil moisture and interactive feedback.
+    </li>
+  </ul>
+</div>
+
+
+
+      {/* Virtual Reality Platform for Post-Op Knee Surgery Patients */}
+<div className="py-6">
+  <p className="italic">
+    <span className="font-bold">Software Engineer (Unity Developer)</span>
+    <span className="px-2">|</span>UF CS Dept.
+  </p>
+  <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+    <li>
+      Collaborated on a VR application for post-operative knee surgery rehab patients using Unity and C#, focusing on building immersive experiences using Meta Oculus Quest 2 and patient-specific rehabilitation exercises.
+    </li>
+    <li>
+      Integrated Meta Oculus Quest 2 and Microsoft Surface Dials for precise knee movement tracking, improving exercise accuracy by 30% in the rehabilitation process for patients immersed in the VR world.
+    </li>
+    <li>
+      Implemented real-time feedback & progress tracking systems, improving patient safety and exercise efficiency by 20%.
+    </li>
+    <li>
+      Developed a backend API using C# to transmit data packets from VR to the user dashboard for further analysis, utilizing libraries such as SignalR for real-time communication and Newtonsoft.Json for data handling.
+    </li>
+  </ul>
+</div>
+
+      
       {/* Nature Nexus (Full Stack App for DBMS Project) */}
 <div className="py-6">
   <p className="italic">
     <span className="font-bold">Full Stack Developer</span>
-    <span className="px-2">|</span>CS Dept, UF
+    <span className="px-2">|</span>UF CS Dept.
   </p>
-  <p className="py-1 italic">November 2023 - April 2024</p>
   <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
     <li>
       Led the development of Nature Nexus, a full-stack application aimed at
@@ -410,37 +481,15 @@ const Resume = () => {
   </ul>
 </div>
 
-      {/* Virtual Reality Platform for Post-Op Knee Surgery Patients */}
-<div className="py-6">
-  <p className="italic">
-    <span className="font-bold">Software Engineer (Unity Developer)</span>
-    <span className="px-2">|</span>CS Dept, UF
-  </p>
-  <p className="py-1 italic">September 2023 - May 2024</p>
-  <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-    <li>
-      Collaborated on a VR application for post-operative knee surgery rehab patients using Unity and C#, focusing on building immersive experiences using Meta Oculus Quest 2 and patient-specific rehabilitation exercises.
-    </li>
-    <li>
-      Integrated Meta Oculus Quest 2 and Microsoft Surface Dials for precise knee movement tracking, improving exercise accuracy by 30% in the rehabilitation process for patients immersed in the VR world.
-    </li>
-    <li>
-      Implemented real-time feedback & progress tracking systems, improving patient safety and exercise efficiency by 20%.
-    </li>
-    <li>
-      Developed a backend API using C# to transmit data packets from VR to the user dashboard for further analysis, utilizing libraries such as SignalR for real-time communication and Newtonsoft.Json for data handling.
-    </li>
-  </ul>
-</div>
+      
 
 
 {/* GAN-Enhanced Credit Card Fraud Detection Classifier */}
 <div className="py-6">
   <p className="italic">
     <span className="font-bold">Machine Learning Developer</span>
-    <span className="px-2">|</span>CS Dept, UF
+    <span className="px-2">|</span>UF CS Dept.
   </p>
-  <p className="py-1 italic">January 2023 - November 2023</p>
   <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
     <li>
       Developed a two-stage machine learning model (GAN & SVM) to address the
@@ -469,9 +518,8 @@ const Resume = () => {
 <div className="py-6">
   <p className="italic">
     <span className="font-bold">Compiler Developer</span>
-    <span className="px-2">|</span>CS Dept, UF
+    <span className="px-2">|</span>UF CS Dept.
   </p>
-  <p className="py-1 italic">August 2023 - December 2023</p>
   <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
     <li>
       Developed a full compiler suite for a custom programming language across
@@ -505,7 +553,7 @@ const Resume = () => {
           <span className="px-2">|</span>Gainesville, FL
         </p>
         <p className="py-1 italic">
-          CASMM - Engaging Learning Lab (March 2022 – December 2022)
+          CASMM - Engaging Learning Lab 
         </p>
         <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
           <li>
