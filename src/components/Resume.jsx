@@ -66,7 +66,7 @@ const Resume = () => {
             </p>
           </div>
           <div>
-            <p className="font-bold">May 2024</p>
+            <p className="font-bold">2024</p>
           </div>
         </div>
       </div>
