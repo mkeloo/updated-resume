@@ -460,7 +460,7 @@ const Resume = () => {
       {/* Nature Nexus (Full Stack App for DBMS Project) */}
 <div className="py-6">
   <p className="italic">
-    <span className="font-bold">Full Stack Developer</span>
+    <span className="font-bold">Nature Nexus (Full Stack Web App)</span>
     <span className="px-2">|</span>UF CS Dept.
   </p>
   <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
