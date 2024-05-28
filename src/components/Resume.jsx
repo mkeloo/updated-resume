@@ -380,12 +380,37 @@ const Resume = () => {
         </ul>
       </div> */}
 
+        {/* Virtual Reality Platform for Post-Op Knee Surgery Patients */}
+<div className="py-6">
+  <p className="italic">
+    <span className="font-bold">Virtual Reality Platform for Post-Op Knee Surgery Patients (KneedForSpeed)</span>
+    <span className="px-2">|</span>UF CS Dept.
+  </p>
+  <p className="italic">Tech: Unity 3D & VR, C# Scripting, React JS, Tailwind CSS, Node JS.</p>
+  <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+    <li>
+      Collaborated on a VR application for post-operative knee surgery rehab patients using Unity and C#, focusing on building immersive experiences using Meta Oculus Quest 2 and patient-specific rehabilitation exercises.
+    </li>
+    <li>
+      Integrated Meta Oculus Quest 2 and Microsoft Surface Dials for precise knee movement tracking, improving exercise accuracy by 30% in the rehabilitation process for patients immersed in the VR world.
+    </li>
+    <li>
+      Implemented real-time feedback & progress tracking systems, improving patient safety and exercise efficiency by 20%.
+    </li>
+    <li>
+      Developed a backend API using C# to transmit data packets from VR to the user dashboard for further analysis, utilizing libraries such as SignalR for real-time communication and Newtonsoft.Json for data handling.
+    </li>
+  </ul>
+</div>
+
+
       {/* Automated Detection and Classification of Plant Diseases */}
 <div className="py-6">
   <p className="italic">
-    <span className="font-bold">Tech: Python, OpenCV, TensorFlow, Keras, Flask, Raspberry Pi</span>
+    <span className="font-bold">Automated Detection and Classification of Plant Diseases</span>
     <span className="px-2">|</span>UF CS Dept.
   </p>
+  <p className="italic">Tech: Python, OpenCV, TensorFlow, Keras, Flask, Raspberry Pi</p>
   <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
     <li>
       Developed an automated system to detect and classify plant diseases using computer vision and deep learning in order to assist farmers in early disease identification and treatment.
@@ -405,9 +430,10 @@ const Resume = () => {
 {/* Interactive Plant Care System */}
 <div className="py-6">
   <p className="italic">
-    <span className="font-bold">Tech: C/C++, ARM Cortex-M, I2C, Wi-Fi, MQTT, AWS IoT Core, AWS Lambda, AWS DynamoDB, React.js.</span>
+    <span className="font-bold">Interactive Plant Care System </span>
     <span className="px-2">|</span>UF CS Dept.
   </p>
+  <p className="italic">Tech: C/C++, ARM Cortex-M, I2C, Wi-Fi, MQTT, AWS IoT Core, AWS Lambda, AWS DynamoDB, React.js.</p>
   <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
     <li>
       Developed firmware in C/C++ for ARM Cortex-M microcontrollers to automate plant watering and monitor soil moisture, temperature, and light levels.
@@ -429,28 +455,7 @@ const Resume = () => {
 
 
 
-      {/* Virtual Reality Platform for Post-Op Knee Surgery Patients */}
-<div className="py-6">
-  <p className="italic">
-    <span className="font-bold">Software Engineer (Unity Developer)</span>
-    <span className="px-2">|</span>UF CS Dept.
-  </p>
-  <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-    <li>
-      Collaborated on a VR application for post-operative knee surgery rehab patients using Unity and C#, focusing on building immersive experiences using Meta Oculus Quest 2 and patient-specific rehabilitation exercises.
-    </li>
-    <li>
-      Integrated Meta Oculus Quest 2 and Microsoft Surface Dials for precise knee movement tracking, improving exercise accuracy by 30% in the rehabilitation process for patients immersed in the VR world.
-    </li>
-    <li>
-      Implemented real-time feedback & progress tracking systems, improving patient safety and exercise efficiency by 20%.
-    </li>
-    <li>
-      Developed a backend API using C# to transmit data packets from VR to the user dashboard for further analysis, utilizing libraries such as SignalR for real-time communication and Newtonsoft.Json for data handling.
-    </li>
-  </ul>
-</div>
-
+    
       
       {/* Nature Nexus (Full Stack App for DBMS Project) */}
 <div className="py-6">
