@@ -313,7 +313,7 @@ const Resume = () => {
         </ul>
       </div> */}
       {/* InsightCommerce AI */}
-      <div className="py-6">
+      {/*  <div className="py-6">
         <p className="italic">
           <span className="font-bold">Software Engineer Intern</span>
           <span className="px-2">|</span>Remote
