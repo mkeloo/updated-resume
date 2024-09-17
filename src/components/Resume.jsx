@@ -278,7 +278,7 @@ const Resume = () => {
       </div> */}
 
       {/* Professional Experience */}
-      <h5 className="text-center underline text-2xl font-bold py-2 mt-3">
+     {/* <h5 className="text-center underline text-2xl font-bold py-2 mt-3">
         Professional Experience
       </h5>
       {/* Mark W. Keels P.E. Construction LLC */}
@@ -343,7 +343,7 @@ const Resume = () => {
             ensuring its reliable scalability to meet e-commerce demands.
           </li>
         </ul>
-      </div>
+      </div>  */}
 
       {/* Academic Projects */}
       <h5 className="text-center underline text-2xl font-bold py-3 mt-3">
